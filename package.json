@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "run": "bash cdr-recent-dirs-clearn.sh > .chpwd-recent-dirs-clearn",
+    "diff": "vimdiff ~/.chpwd-recent-dirs .chpwd-recent-dirs-clearn",
+    "deploy": "mv .chpwd-recent-dirs-clearn ~/.chpwd-recent-dirs"
+  }
+}
